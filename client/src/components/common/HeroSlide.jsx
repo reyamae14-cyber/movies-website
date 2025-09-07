@@ -151,7 +151,7 @@ const HeroSlide = ({ mediaType, mediaCategory }) => {
                       size="large"
                       startIcon={<PlayArrowIcon />}
                       component={Link}
-                      to={routesGen.mediaDetail(tmdbConfigs.mediaType.tv, media.id)}
+                      to={routesGen.mediaDetail(mediaType, media.id)}
                       sx={{ width: "max-content" }}
                     >
                       watch now
