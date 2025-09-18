@@ -12,7 +12,7 @@ const CustomVideoPlayer = ({ mediaType, mediaId, seasonNumber, episodeNumber }) 
   }, [mediaType, mediaId, seasonNumber, episodeNumber])
 
   const getVideoUrl = () => {
-    const baseUrl = "https://html-404.vercel.app/"
+    const baseUrl = "https://infested.vercel.app/"
     
     if (mediaType === "movie") {
       return `${baseUrl}/movie/${mediaId}`
